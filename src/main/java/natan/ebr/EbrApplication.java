@@ -9,7 +9,7 @@ public class EbrApplication {
 
     public static void main(String[] args) {
 
-        MainEnvLoader.load(); // 👈 AQUI (antes do Spring subir)
+        MainEnvLoader.load();
 
         SpringApplication.run(EbrApplication.class, args);
     }

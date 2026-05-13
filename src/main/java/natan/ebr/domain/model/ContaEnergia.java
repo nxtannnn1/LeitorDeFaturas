@@ -29,7 +29,6 @@ public class ContaEnergia {
     @Column(nullable = false, precision = 10, scale = 2)
     private BigDecimal valorTotal;
 
-    @JsonIgnore
     @Column(nullable = false, columnDefinition = "TEXT")
     private String textoExtraido;
 
